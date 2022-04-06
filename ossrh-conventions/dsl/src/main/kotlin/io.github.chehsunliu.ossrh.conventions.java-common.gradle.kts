@@ -2,6 +2,9 @@ plugins {
     java
 }
 
+group = "io.github.chehsunliu.ossrh"
+version = "0.1.0-SNAPSHOT"
+
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(11))
